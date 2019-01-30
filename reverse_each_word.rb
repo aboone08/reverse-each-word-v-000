@@ -4,5 +4,4 @@ def reverse_each_word(sentence)
     word.reverse!
     words.to_s
   end
-  return sentence
 end
