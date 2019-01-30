@@ -3,6 +3,6 @@ def reverse_each_word(sentence)
   words.collect do |word|
     word.reverse!
     words.to_s
-    return sentence.reverse
   end
+  return sentence.reverse
 end
